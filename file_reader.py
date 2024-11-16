@@ -16,8 +16,8 @@ def read_from_file(filename, month=0, return_dates=False, day=0):
 
             # Optional task (harder still):
             # Skip the first n days
-            if day != 0:
-                day -= 1
+            if number_day <= day:
+                number_day += 1
                 continue
 
             #find out if the current line matches the wanted month

@@ -33,7 +33,7 @@ print(f"Spring starts on day: {spring}") # 0 == Jan. 1, 11 == Jan. 10
 
 message("\nWhat do you want to do?")
 while True:
-    message("Press 1 for average temperature, 2 for the arrival of spring and 3 to get min/max temperatures for a specific month")
+    message("Enter\n1 for average temperature,\n2 for the arrival of spring or\n3 to get min/max temperatures for a specific month")
     choice = read_int(input())
     if choice > 0 and choice < 4: # Number must be within valid range
         break;
